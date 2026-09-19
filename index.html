@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>TUFF CASINO — DEMO</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <div class="logo">TUFF <span>CASINO</span></div>
+    <div class="demo">DEMO</div>
+  </header>
+
+  <section id="casesPage">
+    <div class="hero">
+      <h1>КЕЙСЫ</h1>
+      <p>Демонстрационная витрина TUFF CASINO</p>
+      <div class="balance">Баланс: <b id="balance">0.00 TON</b></div>
+    </div>
+    <div id="casesGrid" class="cases-grid"></div>
+  </section>
+
+  <section id="casePage" class="hidden">
+    <button id="backButton" class="back">← Назад</button>
+    <div class="case-head">
+      <div id="caseIcon" class="case-big-icon"></div>
+      <div>
+        <h2 id="caseName"></h2>
+        <p id="casePrice"></p>
+      </div>
+    </div>
+    <h3>НАГРАДЫ</h3>
+    <div id="rewardsGrid" class="rewards-grid"></div>
+    <button id="openButton" class="open">ОТКРЫТЬ ДЕМО-КЕЙС</button>
+    <div id="result" class="result hidden"></div>
+  </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
